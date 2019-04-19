@@ -1,6 +1,6 @@
 # DynamicProxyServer
 
-本程序可动态获取代理IP地址，浏览器或其他终端每次请求都进行换一代理IP地址进行请求内容。
+本程序可动态获取代理IP地址，浏览器或其他终端每次请求都进行换一代理IP地址进行请求内容，目前还有很多bug未处理好，后续看情况更新。
 
 # 支持版本
 
@@ -25,5 +25,16 @@ Proxy(addr=('0.0.0.0', 12345),proxy_pool_url=proxy_pool_url).serve_forever()
 
 修改autoProxyServer.py后，直接运行该文件。
 
+# 测试效果
+## 程序运行效果
+![image](https://github.com/c0d1007/DynamicProxyServer/blob/master/images/1.png)
 
+## 访问测试IP地址
 
+第一次访问解析的IP地址
+
+![image](https://github.com/c0d1007/DynamicProxyServer/blob/master/images/2.png)
+
+第二次访问解析的IP地址
+
+![image](https://github.com/c0d1007/DynamicProxyServer/blob/master/images/3.png)
